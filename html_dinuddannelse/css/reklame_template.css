@@ -1,0 +1,24 @@
+
+/* General */
+#reklame_template {margin: 24px; display: flex; flex-direction: column; background-color: #f1ebeb;}
+#reklame_template header {padding: 11px 17px 10px 17px; background-color: #c40000;}
+#reklame_template .reklame_img {width: 100%; height: 336px; background-image: url(/html_dinuddannelse/img/rts-skole/webudvikler_1_detalje.jpg); background-size: cover;}
+#reklame_template .reklame_text {padding: 0px 16px 0px 16px;}
+#reklame_template .button_template {margin: 0px 0px 17px 0px;}
+
+/* Fonts */
+#reklame_template h1 {font-size: 2.6rem; padding: 32px 0px 0px 0px;}
+#reklame_template h3 {color: white;}
+#reklame_template p {padding: 20px 0px 25px 0px;}
+
+@media(min-width: 361px){
+    /* General */
+    #reklame_template {display: flex; flex-direction: row; flex-wrap: wrap; margin: 20px 33px 38px 33px;}
+    #reklame_template header {flex: 100%;}
+    #reklame_template .reklame_img {flex: 1 0 35%; height: auto;}
+    #reklame_template .reklame_text {flex: 1 0 55%; padding: 0px 30px 0px 30px;}
+    #reklame_template .button_template {margin: 0px 0px 33px 0px;}
+
+    /* Fonts */
+    #reklame_template h1 {font-size: 4.8rem; padding-top: 20px;}
+}

@@ -1,0 +1,25 @@
+#header_template {padding: 11px 24px 0px 24px; background-color: #c40000; justify-content: space-between;}
+#header_template .flex_container {justify-content: space-between; flex-wrap: wrap;}
+#header_template #logo {height: 33px; padding-bottom: 12px;}
+#header_template #menu {align-self: flex-end; padding-bottom: 12px;}
+#header_template p {align-self: flex-end; text-align: right;}
+#header_template label {align-self: flex-end; padding-bottom: 12px;}
+#header_template label:hover {align-self: flex-end; cursor: pointer;}
+#header_template input {display: none;}
+#header_template input[type="checkbox"]:checked ~ nav {display: block;}
+#header_template nav {display: none; flex: 100%; margin-top: -10px;}
+#header_template ul {list-style: none; padding: 0; display: flex; flex-flow: column wrap; align-content: flex-end;}
+
+/* Fonts */
+#header_template strong {color: white;}
+#header_template p {color: white;}
+#header_template a {text-decoration: none;}
+
+@media(min-width: 361px){
+    #header_template {padding: 16px 32px 0px 32px;}
+    #header_template #logo {height: 48px; padding-bottom: 16px;}
+    #header_template label {display: none;}
+    #header_template #menu {display: none;}
+    #header_template nav {display: block; flex: 0 1 300px; align-content: baseline; align-self:flex-end;}
+    #header_template ul {flex-flow: row; justify-content: space-between;}
+}

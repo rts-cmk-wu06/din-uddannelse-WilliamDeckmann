@@ -1,0 +1,24 @@
+
+/* General */
+.kort_template {margin-bottom: 16px; display: flex; flex-direction: column;}
+.kort_template .kort_img {width: 100%; height: 210px;}
+.kort_template .kort_text {padding: 0px 24px 0px 24px;}
+
+/* Billeder */
+.kort_template .kort_img_1 {background-image: url(/html_dinuddannelse/img/rts-skole/digital-post_0.jpg); background-size: cover;}
+.kort_template .kort_img_2 {background-image: url(/html_dinuddannelse/img/rts-skole/laeringsfestival.jpg); background-size: cover;}
+
+/* Fonts */
+.kort_template h1 {padding: 25px 0px 0px 0px}
+.kort_template p {padding: 24px 0px 32px 0px;}
+
+@media(min-width: 361px){
+    /* General */
+    .kort_template {display: flex; flex-direction: row; margin-bottom: 24px;}
+    .kort_template .kort_img {flex: 1 0 50%; height: auto;}
+    .kort_template .kort_text {flex: 1 1 50%; padding: 0px 32px 0px 32px;}
+    .kort_template .kort_text .item_p {display: flex; flex-flow: column;}
+
+    /* Fonts */
+    .kort_template h1 {font-size: 4.8rem; padding-top: 0;}
+}

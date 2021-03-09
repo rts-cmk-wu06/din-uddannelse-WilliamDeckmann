@@ -1,0 +1,17 @@
+
+/* General */
+#fakta_template {margin: 0px 24px 32px 24px; background-color: #8B7B7B;}
+#fakta_template section {padding: 16px;}
+#fakta_template img {width: 100%;}
+
+/* Fonts */
+#fakta_template h2 {padding-bottom: 16px; color: white;}
+#fakta_template p {color: white;}
+
+@media(min-width: 361px){
+    /* General */
+    #fakta_template {order: 2; width: calc(50% - 78px); margin: 0px 24px 45px 48px;}
+    
+    /* Fonts */
+    #fakta_template h2 {font-size: 3.2rem;}
+}

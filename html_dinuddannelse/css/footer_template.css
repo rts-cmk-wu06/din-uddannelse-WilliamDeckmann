@@ -1,0 +1,16 @@
+#footer_template {padding: 30px 25px 13px 25px; justify-content: space-between; flex-wrap: wrap; background-color: #5D4646;}
+#footer_template li {list-style: none;}
+#footer_template a {text-decoration: none;}
+#footer_template section {flex: 0 0 50%;}
+#footer_template section img {height: 24px; margin-left: 20px;}
+#footer_template #copyright {flex: 100%; margin-top: 11px; display: flex; justify-content: center;}
+
+/* Fonts */
+#footer_template p {color: white;}
+#footer_template a {color: white;}
+#footer_template small {color: white;}
+
+@media(min-width: 361px){
+    /* General */
+    #footer_template {padding: 30px 36px 22px 32px;}
+}

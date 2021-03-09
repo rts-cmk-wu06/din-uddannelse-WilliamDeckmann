@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Style templates -->
+    <link rel="stylesheet" href="/html_dinuddannelse/css/hero.css">
+    <link rel="stylesheet" href="/html_dinuddannelse/css/header_template.css">
+    <link rel="stylesheet" href="/html_dinuddannelse/css/button_template.css">
+    <link rel="stylesheet" href="/html_dinuddannelse/css/search_template.css">
+    <link rel="stylesheet" href="/html_dinuddannelse/css/reklame_template.css">
+    <link rel="stylesheet" href="/html_dinuddannelse/css/kort_template.css">
+    <link rel="stylesheet" href="/html_dinuddannelse/css/footer_template.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header_template"> <!-- Header template -->
+            <div class="flex_container">
+                <img src="/html_dinuddannelse/img/dinudd_logo.png" alt="" id="logo">
+                
+                <strong id="menu">Menu</strong>
+                <label for="checkbox"><img src="/html_dinuddannelse/img/More.png" alt="" id="menu_list"></label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <nav>
+                    <ul>
+                        <li><a href="front_page.html"><p>Front</p></a></li>
+                        <li><a href="article_page.html"><p>Article</p></a></li>
+                        <li><a href="school_portrait_page.html"><p>Portrait</p></a></li>
+                        <li><a href="school_details_page.html"><p>Details</p></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="search_template"> <!-- Search template -->
+            <div><h1>Hvilken uddandelse <br>vil du vælge?</h1></div>
+            <form action="post" action="">
+                <img src="/html_dinuddannelse/img/Icon Search.png" alt="">
+                <input type="text" name="search">
+            </form>
+        </section>
+
+        <article id="reklame_template"> <!-- Reklame template -->
+            <header><h3>Månedens skole</h3></header>  
+            <section class="reklame_img"></section> <!-- Billede -->
+
+            <section class="reklame_text"> <!-- Tekst -->
+                <h1>Bliv webudvikler på Roskilde Tekniske skole</h1>
+                <p>
+                    "Jeg har været rigtig glad for at gå på skolen. Underviserne er dygtige til at guide os elever til at finde de bedste løsninger, og vi har et fedt fællesskab i klassen. Nu er jeg klar til at starte i job." - <em>Henrik, webudviklerelev</em>
+                </p>
+                <div class="flex_alignleft">
+                    <button class="button_template"><strong id="button">Læs mere</strong></button>
+                </div>
+            </section>
+        </article>
+
+        <article class="kort_template"> <!-- Kort template -->
+            <section class="kort_img kort_img_1"></section> <!-- Billede -->
+
+            <section class="kort_text"> <!-- Tekst -->
+                <h1>Har du tjekket <br>din e-Boks?</h1>
+                <div class="item_p">
+                    <p>
+                        Roskilde Tekniske Skole sender digital post, så hold øje med din e-Boks.
+                    </p>
+                    <div class="flex_alignleft">
+                        <button class="button_template"><strong id="button">Læs mere</strong></button>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article class="kort_template"> <!-- Kort template -->
+            <section class="kort_img kort_img_2"></section> <!-- Billede -->
+
+            <section class="kort_text"> <!-- Tekst -->
+                <h1>Læringsfestival <br>online 2021</h1>
+                <div class="item_p">
+                    <p>
+                        Du kan nu gense de gratis oplæg, der er gjort tilgængelige for gensyn.
+                    </p>
+                    <div class="flex_alignleft">
+                        <button class="button_template"><strong id="button">Læs mere</strong></button>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <footer id="footer_template"> <!-- Footer template -->
+            <div class="flex_container"> <!-- Flex container -->
+                <section> <!-- Link -->
+                    <p><strong>Du finder os her</strong></p>
+                    <li><a href="#">Roskilde Tekniske Skole</a></li>
+                    <li><a href="#">Postboks 132, <br>Pulsen 10</a></li>
+                    <li><a href="#">4000 Roskilde</a></li>
+                </section>
+
+                <section class="flex_alignleft"> <!-- Logo -->
+                        <img src="/html_dinuddannelse/img/Symbol 11 – 14.png" alt="Instagram logo">
+                        <img src="/html_dinuddannelse/img/Symbol 10 – 14.png" alt="Twitter logo">
+                        <img src="/html_dinuddannelse/img/Symbol 9 – 14.png" alt="Facebook logo">
+                </section>
+                </div>
+                <div id="copyright"><small>© RTS Web Design</small></div>
+        </footer>
+    </div> <!-- Wrapper slut -->
+</body>
+</html>

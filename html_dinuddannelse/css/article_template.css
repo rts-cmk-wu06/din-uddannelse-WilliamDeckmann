@@ -1,0 +1,23 @@
+
+/* General */
+#article_template {margin-bottom: 16px;}
+#article_template section {padding: 0px 24px 0px 24px;}
+#article_template figure {width: 100%; height: 208px; margin: 0; background-image: url(/html_dinuddannelse/img/rts-skole/webudvikler-jobbet-venter-paa-henrik_8.jpg); background-size: cover;}
+#article_template section figure {width: 100%; height: 176px; margin: 0; background-image: url(/html_dinuddannelse/img/rts-skole/eux_1.jpg); background-size: cover;}
+
+/* Fonts */
+#article_template h1 {padding: 24px 0px 12px 0px}
+#article_template p {padding: 16px 0px 16px 0px;}
+#article_template .highlight {padding: 0px 0px 8px 0px;}
+
+@media(min-width: 361px){
+    /* General */
+    #article_template figure {height: 520px;}
+    #article_template section {padding: 0px 177px 0px 177px;}
+    #article_template section figure {height: 378px;}
+
+    /* Fonts */
+    #article_template h1 {font-size: 4.8rem; padding: 56px 0px 21px 0px}
+    #article_template p {padding: 24px 0px 24px 0px;}
+    #article_template .highlight {padding: 0;}
+}

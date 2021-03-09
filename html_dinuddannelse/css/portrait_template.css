@@ -1,0 +1,44 @@
+
+/* General */
+
+#portrait_template section {padding: 0px 24px 24px 24px;}
+#portrait_template .flex_container {flex-flow: column;}
+#portrait_template .flex_container .item_img {height: 258px; margin: 0; background-image: url(/html_dinuddannelse/img/rts-skole/chat-med-vejleder_0.jpg); background-size: cover; background-position: center;}
+#portrait_template .flex_container #item_p {padding: 24px 24px 24px 24px;}
+#portrait_template .flex_container .flex_alignleft {display: none;}
+#portrait_template img {width: 100%;}
+
+/* Under section - Billeder */
+#portrait_template #under_section .item_left figure {height: 170px; margin: 0; background-image: url(/html_dinuddannelse/img/rts-skole/pulsen-8_studiemiljo_1.jpg); background-size: cover;}
+#portrait_template #under_section .item_middle figure {height: 170px; margin: 0; background-image: url(/html_dinuddannelse/img/rts-skole/webudvikler_1.jpg); background-size: cover;}
+#portrait_template #under_section .item_right figure {height: 170px; margin: 0; background-image: url(/html_dinuddannelse/img/rts-skole/webudvikler_2.jpg); background-size: cover;}
+
+/* Fonts */
+#portrait_template h1 {font-size: 3.2rem; padding: 0px 24px 0px 24px; margin: 24px 0px 0px 0px;}
+#portrait_template h2 {padding: 16px 0px 0px 0px;}
+#portrait_template .flex_container p {padding: 24px 24px 24px 24px;}
+
+@media(min-width: 361px){
+    /* General */
+    #portrait_template .flex_container {display: flex; flex-direction: row; flex-wrap: wrap; padding: 0px 32px 0px 32px; margin-bottom: 46px;}
+    #portrait_template .flex_container .item_img {order: 3; flex: 1 1 51%; height: auto;}
+    #portrait_template .flex_container .item_h1 {order: 1; flex: 100%; padding: 0; margin: 36px 0px 33px 0px;}
+    #portrait_template .flex_container .item_p {order: 2; flex: 1 1 20%; display: flex; flex-flow: column; justify-content: space-between;}
+    #portrait_template .flex_container p {padding: 0px 24px 24px 0px;}
+    #portrait_template .flex_container .flex_alignleft {display: flex; justify-content: flex-end; padding-right: 24px;}
+
+    /* Under section */
+    #portrait_template #under_section {display: flex; flex-direction: row; padding: 0px 32px 64px 32px;}
+    #portrait_template #under_section .item_left {padding: 0px; width: calc(33% - 12px);}
+    #portrait_template #under_section .item_middle {padding: 0px 24px 0px 24px; width: calc(33% - 24px);}
+    #portrait_template #under_section .item_right {padding: 0px; width: calc(33% - 12px);}
+
+    /* Under section - Billeder */
+    #portrait_template #under_section .item_left figure {height: 166px;}
+    #portrait_template #under_section .item_middle figure {height: 166px;}
+    #portrait_template #under_section .item_right figure {height: 166px;}
+
+    /* Fonts */
+    #portrait_template h1 {font-size: 4rem;}
+    #portrait_template h2 {padding: 16px 0px 8px 0px;}
+}

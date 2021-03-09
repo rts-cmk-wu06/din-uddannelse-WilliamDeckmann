@@ -1,0 +1,19 @@
+
+/* General */
+#search_template {display: flex; flex-flow: column; justify-content: center; align-items: center; background-image: url(/html_dinuddannelse/img/rts-skole/htx_2.jpg); background-size: cover; height: 210px;}
+#search_template form {position: relative;}
+#search_template img {height: 26px; position: absolute; top: 50%; transform: translate(50%, -50%);}
+#search_template input {width: 236px; height: 45px; padding-left: 50px; border: solid 1px #c40000; border-radius: 25px; outline: none;}
+
+/* Fonts */
+#search_template h1 {flex: 100%; margin: 0px 20px 17px 17px; text-align: center; color: white; text-shadow: 1px 1px 4px black;}
+
+@media(min-width: 361px){
+    /* General */
+    #search_template {height: 520px;}
+    #search_template input {width: 48vw;}
+
+    /* Fonts */
+    #search_template h1 {font-size: 4.8rem; margin: 0px 20px 23px 17px;}
+    #search_template br {display: none;}
+}
